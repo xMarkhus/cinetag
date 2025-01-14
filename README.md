@@ -1,70 +1,60 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎬 **React Cinetag**
 
-## Available Scripts
+Bem-vindo ao **React Cinetag**! Este é um projeto simples e funcional de um reprodutor de vídeos, que permite navegar, favoritar e assistir vídeos. Ele é construído com **React**, utilizando conceitos modernos como **Context API** e **Hooks personalizados**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 **Funcionalidades**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home** 🏠:  
+  Exibe uma lista de vídeos disponíveis para navegação e visualização.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Favoritar** ⭐:  
+  Adicione seus vídeos favoritos a uma lista especial na página de favoritos.  
 
-### `npm test`
+- **Player de Vídeo** ▶️:  
+  Ao clicar em qualquer vídeo, você será redirecionado para uma página dedicada onde o vídeo pode ser reproduzido.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Página 404 - NotFound** 🚧:  
+  URLs inválidas redirecionam para uma página personalizada "Página Não Encontrada".  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 **Tecnologias Utilizadas**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Construção da interface do usuário.  
+- **Context API**: Gerenciamento de estado global.  
+- **Hooks Personalizados**: Reutilização de lógica em várias partes do aplicativo.  
+- **my-json-server**: API simulada para fornecer dados de vídeos.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ **Como Executar o Projeto**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone este repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/react-video-player.git
+   ```
+2. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
+3. **Configure o servidor de dados**:  
+   O projeto consome dados do **my-json-server**, já configurado na URL:  
+   **`https://my-json-server.typicode.com/xMarkhus/cinetag-api`**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Execute o projeto**:
+   ```bash
+   npm start
+   ```
+5. **Acesse no navegador**:  
+   O projeto estará disponível em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✨ **Melhorias Futuras**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 📱 **Responsividade**: Adicionar suporte a dispositivos móveis e tablets.  
+- 🎨 **Design**: Melhorar a aparência visual com animações e efeitos.  
+- 🔍 **Busca e Filtros**: Implementar funcionalidade para busca e filtragem de vídeos.  
